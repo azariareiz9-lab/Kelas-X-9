@@ -12,13 +12,13 @@ header, article {
   display: flex;
   justify-content: center;
   animation: transisi 3s;
-  color:white;
+  color:hwb(0 100% 0%);
 }
 .btn {
   font-size: 3vh;
   width: 50%;
   height: 50;
-  background-color: gray;
+  background-color: hwb(0 50% 50%);
   border-radius:3vh;
   border-color: #aba6a6
 }
@@ -33,13 +33,13 @@ header, article {
   100%{background-position: 0%;}
 }
 a:hover{
-  color: white;
-  background-color: black;
+  color: hwb(0 100% 0%);
+  background-color: lab(0% 0 0);
 }
 a {
-  color: black;
+  color: lab(0% 0 0);
   border-radius:6vh;
-  background: gray;
+  background: hwb(0 50% 50%);
   padding-right: 6vh;
   padding-left: 6vh;
   text-decoration: none;
