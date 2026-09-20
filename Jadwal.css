@@ -15,7 +15,11 @@ details::details-content {
   block-size: 0;
   overflow: hidden;
   transition: opacity 0.3s ease, block-size 0.3s ease, content-visibility 0.3s ease allow-discrete;
-} 
+}
+body {
+  background: white;
+  color: black;
+}
 .set1 {
   animation: masuk 1s ;
 }
@@ -81,4 +85,7 @@ summary {
   list-style:none;
   box-shadow: 0vh 0.5vh 0vh 0.5vh;
   border-radius: 2vh;
+}
+.tab {
+  background: white
 }

@@ -1,3 +1,7 @@
+body {
+  background: white;
+  color: black;
+}
 details {
   width: 6vh;
   height: 100%;
