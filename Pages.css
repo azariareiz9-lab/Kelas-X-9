@@ -1,6 +1,6 @@
 body {
-  background: white;
-  color: black;
+  background: hwb(0 100% 0%);
+  color: lab(0% 0 0);
 }
 details {
   width: 6vh;
@@ -34,7 +34,7 @@ summary {
 }
 .menu a {
   display: flex;
-  color: black;
+  color: lab(0% 0 0);
   font-size: 2vh;
   text-decoration: none;
 }

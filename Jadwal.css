@@ -17,8 +17,8 @@ details::details-content {
   transition: opacity 0.3s ease, block-size 0.3s ease, content-visibility 0.3s ease allow-discrete;
 }
 body {
-  background: white;
-  color: black;
+  background: hwb(0 100% 0%);
+  color: lab(0% 0 0);
 }
 .set1 {
   animation: masuk 1s ;
@@ -66,8 +66,8 @@ div h1{
   font-size: 3vh;
 }
 div {
-  background:white;
-  border: 0.5vh solid black;
+  background:hwb(0 100% 0%);
+  border: 0.5vh solid lab(0% 0 0);
   border-radius: 6vh;
   width: 100%;
   margin-top: 4vh;
@@ -87,5 +87,5 @@ summary {
   border-radius: 2vh;
 }
 .tab {
-  background: white
+  background: hwb(0 100% 0%)
 }
