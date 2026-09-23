@@ -1,4 +1,4 @@
-@keyframes masuk{
+;@keyframes masuk{
   0% {transform: translateY(0); opacity: 0.3;}
   20% {transition: translateY(2vh);opacity :0.6;}
   50% {transform: translateY(3vh); opacity: 0.9;}
@@ -88,4 +88,27 @@ summary {
 }
 .tab {
   background: hwb(0 100% 0%)
+}
+ul {
+  list-style: none;
+  padding: 0px;
+}
+li {
+  display: flex;
+  margin-bottom: 10px ;
+  align-items: center
+}
+img {
+  border-radius: 50%;
+  width: 8vh;
+  height: 9vh;
+  margin-right: 12px;
+}
+li {
+  background: hwb(0 100% 0%);
+  border-radius: 5vh;
+  font-family: 'Agbalumo';
+  font-size: 3vh;
+  margin-left: 1vh;
+  margin-right:1vh;
 }
